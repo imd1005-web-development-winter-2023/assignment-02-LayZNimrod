@@ -44,11 +44,19 @@ ul.header {
 }
 
 ul.header a {
+  position:sticky;
+  top: 0;
+  overflow-y:auto;
+  align-self: flex-start;
   color: #F2F2F2;
   text-decoration-line: none;
 }
 
 ul.header img {
+  position:sticky;
+  top: 0;
+  overflow-y:auto;
+  align-self: flex-start;
   transform: translateX(-100px);
   margin-top: -40px;
   padding: 0px;
