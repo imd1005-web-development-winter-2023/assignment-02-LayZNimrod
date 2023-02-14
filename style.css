@@ -1,3 +1,154 @@
+/**** Add your styles here ****/
+
 /*
-  CSS File
+  The page div is our flex box and is setup
+  to take the full width and height of the page
 */
+
+/* colour scheme #68ABEA, #F2F2F2, #0E2D40*/
+
+.page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 100%;
+  min-height: 100%;
+  /* Flex directives */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #0E2D40;
+}
+
+img{
+  width: 100px;
+  height: auto;
+}
+/*
+  To keep things simple we just target the
+  header directly. Here we are adding
+  padding to the top and bottom (nothing on the side)
+  and setting the background and text colours.
+*/
+
+ul.header {
+  font:bolder;
+  font-size: 20px;
+  margin-top: 40px;
+  background-color: #0E2D40;
+  color: #F2F2F2;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+ul.header a {
+  color: #F2F2F2;
+  text-decoration-line: none;
+}
+
+ul.header img {
+  transform: translateX(-100px);
+  margin-top: -40px;
+  padding: 0px;
+  width: 110px;
+  height: auto;
+}
+
+/*
+  To keep things simple we just target the
+  main element directly.
+  We add the align-self: center directive to
+  center the flex item in the middle of the screen
+  We set the minimum and maximum width so
+  that we can keep our box to a certain size.
+  Lastly we add padding, colours, and a box shadow to
+  make it look a bit better
+*/
+
+main {
+  padding: 100px 50px;
+  background-color: #0E2D40;
+  color: #F2F2F2;
+  border-radius: 20px;
+  box-shadow: #315a72 0px 8px 40px;
+}
+
+ ul.flex1 {
+  background-color: #68ABEA;
+  border-radius: 20px;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+ul.flex1 h1  {
+  font-size:90px;
+  color:  #0c1829;
+}
+ul.flex1 p {
+  color:  #0c1829;
+}
+
+ul.flex1 img{
+  margin-top: -150px;
+  width: 500px;
+  height: auto;
+}
+
+ul.flex2 {
+
+  border-radius: 20px;
+  padding-top: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+ul.flex2 h1 {
+  font-size:50px;
+  padding: 11px;
+  padding-bottom: 100px;
+}
+
+ul.flex2 img{
+  margin-top: -150px;
+  width: 500px;
+  height: auto;
+}
+
+ul.makeRow{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+/*
+  To keep things simple we just target the
+  footer directly. Here we are adding
+  padding to the top and bottom (nothing on the side)
+  and setting the background and text colours.
+*/
+
+footer {
+  padding: 30px 0px;
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1faee;
+  min-height: 100%;
+  min-width: 100%;
+}
