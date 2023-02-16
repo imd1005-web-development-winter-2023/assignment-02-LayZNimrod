@@ -31,13 +31,18 @@ img{
 */
 
 ul.header {
+  border:1px solid red;
+  position:sticky;
+  top: 20px;
+  overflow-y:auto;
+  align-self: flex-start;
   font:bolder;
   font-size: 20px;
   margin-top: 40px;
   background-color: #0E2D40;
   color: #F2F2F2;
   list-style: none;
-  display: flex;
+  /*display: flex;*/
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -57,7 +62,6 @@ ul.header img {
   top: 0;
   overflow-y:auto;
   align-self: flex-start;
-  transform: translateX(-100px);
   margin-top: -40px;
   padding: 0px;
   width: 110px;
