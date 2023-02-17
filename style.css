@@ -25,7 +25,8 @@ img{
 }
 
 .button{
- padding: 30px;
+  border: none;
+ padding: 10px;
  background-color: #1d3557;
  color: #f1faee;
  text-decoration: none;
@@ -35,6 +36,18 @@ img{
 .button:hover{
   background-color: #3a4f6d;
 }
+
+.input{
+background-color: #bdd7fc;
+border-color: #0c1829;
+border-radius: 10px;
+}
+
+label{
+  padding-bottom: 20px;
+}
+
+
 /*
   To keep things simple we just target the
   header directly. Here we are adding
@@ -99,6 +112,8 @@ main {
   /*box-shadow: #315a72 0px 8px 40px;*/
 }
 
+/* flex box 1 formatting */
+
  ul.flex1 {
   background-color: #68ABEA;
   border-radius: 20px;
@@ -125,6 +140,8 @@ ul.flex1 img{
   width: 500px;
   height: auto;
 }
+
+/* flex box 2 formatting */
 
 ul.flex2 {
 
@@ -166,6 +183,8 @@ ul.flex2 p {
   text-align: center;
   max-width: 600px;
 }
+
+/* flex box 3 formatting */
 
 ul.flex3 {
   color: #0c1829;
@@ -209,7 +228,9 @@ ul.flex3 p {
   max-width: 600px;
 }
 
-ul.makeRow{
+/* a quick ul to make Flex box rows */
+
+ul.makeRow {
   padding: 20px;
   list-style: none;
   display: flex;
@@ -219,7 +240,7 @@ ul.makeRow{
   align-items: center;
 }
 
-ul.flex3makeRow{
+ul.flex3makeRow {
   margin-bottom: -100px;
   list-style: none;
   display: flex;
