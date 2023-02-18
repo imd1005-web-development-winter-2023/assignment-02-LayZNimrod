@@ -23,15 +23,13 @@
                 <ul class="header">
                     <li><a href="#home"><img src="logo.png" alt="Zach Miller"></a></li>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#products">Our Products</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
           </header>
     
-
-
           <!-- Our Main Content Area -->
           <main id="home">
             <ul class="flex1">
@@ -49,7 +47,7 @@
             </ul>
             <ul class="flex2">
               <li>
-                <h1 id="about">
+                <h1 id="projects">
                   Some of my artworks and projects ↓
                 </h1>
               </li>
@@ -59,10 +57,10 @@
                   Ghost Guy
                 </h2>
                 <p>
-                  This ghost guy was made in blender with an extra add on for shading. 
-                  He was designed and modeled by me. 
-                  The mouth uses shape keys and a boolian to get interesting results fast.
-                  
+                  This ghost guy was made in blender with the Lightning Boy Shader add on for shading.
+                  He was designed and modeled by me.
+                  The mouth uses shape keys and a boolean to get interesting results fast.
+                  The rig was primaraly for learning shape keys and it turned out to be very succesful.
                 </p>
                 <ul class="makeRow">
                   <li>
@@ -79,20 +77,9 @@
                 Kidd Character
               </h2>
               <p>
-                Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-                Tortor condimentum lacinia quis
-                vel eros donec. Nec sagittis
-                aliquam malesuada bibendum
-                arcu vitae elementum curabitur.
-                Erat imperdiet sed euismod nisi.
-                Enim lobortis scelerisque
-                fermentum dui faucibus in. Sed
-                viverra ipsum nunc aliquet
-                bibendum. Cursus euismod quis
-                viverra nibh cras pulvinar mattis
+                This Kidd character was designed for a game concept.
+                She was modeled following good modeling techniques for animation.
+                Current plans for her are to finish facial rigging, make some animations and possibly import her into a game engine. 
               </p>
               <ul class="flex3makeRow">
                 <li>
@@ -108,20 +95,10 @@
                Rubberhose Style Pig
               </h2>
               <p>
-                Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-                Tortor condimentum lacinia quis
-                vel eros donec. Nec sagittis
-                aliquam malesuada bibendum
-                arcu vitae elementum curabitur.
-                Erat imperdiet sed euismod nisi.
-                Enim lobortis scelerisque
-                fermentum dui faucibus in. Sed
-                viverra ipsum nunc aliquet
-                bibendum. Cursus euismod quis
-                viverra nibh cras pulvinar mattis
+                This is a model of a pig made in Blender inspired by the “rubber hose era” of animation. 
+                This model also uses the Lightning Boy Shader just like the Ghost Guy. I designed my models to be fully rigged even 
+                though they need some additional work to be exported out of Blender. The box at the side is a 
+                screenshot of the objects and some of the bones in the scene to show what it took to create the final product. 
               </p>
               <ul class="makeRow">
                 <li>
@@ -138,11 +115,15 @@
               About Me
             </h1>
             <p>
-              I am a 3d modeler currently going to carleton univercity. 
-
+              My name is Zachary Miller and I am in a carleton univercitys  because I am interested in 3d modeling, programming and game design as a career. 
+              This course is exactly what I want to explore to expand my education and is the best way to learn and develop my skills within this field. 
+              Up to this point, I have mainly been using Blender to make 3d models and I personally think that I have gotten a good start at understanding the basics of the program. 
+              I have been taking programming classes in high school and have realized this is where my interests lie.
+              During my time in high school I have completed 2 years of the Technological Design course.
+              This has given me knowledge and experience in programs such as Adobe Photoshop, Adobe Illustrator and AutoCAD. 
             </p>
            </ul> 
-           <ul class="flex2">
+           <ul class="flex2" id="contact">
             <li>
               <h1>
                 Contact Me
@@ -161,16 +142,15 @@
                   <label for="email">Email:</label>
                   <input type="text" id="email" name="email" autocomplete="email" class="input" />
                   <!-- made with help from this website https://www.tutorialspoint.com/How-to-Create-a-Multi-line-Text-Input-Text-Area-In-HTML#:~:text=To%20create%20a%20multi-line%20text%20input%2C%20use%20the%20HTML,input%20text%20over%20multiple%20rows. -->
-                  <br>
-                  <br>
+                  <br><br>
                     <label for="why-contact">Reason For Contact</label>
                   <br>
                     <textarea rows = "5" cols = "60" name = "why-contact" class="input">
                     </textarea>
                   <br>
                   <li>
-                  <button class="button" type="reset">Reset form</button>
-                  <button class="button" type="submit">Submit your response</button>
+                    <button class="button" type="reset">Reset form</button>
+                    <button class="button" type="submit">Submit your response</button>
                   </li>
                 </div>
               </form>
@@ -180,7 +160,16 @@
 
           <!-- Our Footer Area -->
           <footer>
-            <a href="/home"><img src="logo.png" alt="Zach Miller"></a>
+            <ul class="footer">
+              <li>
+                <a href="/home"><img src="logo.png" alt="Zach Miller"></a>
+              </li>
+              <li>
+                <p>
+                2023©️
+                </p>
+              </li>
+            </ul>
           </footer>
         </div>
       </body>
