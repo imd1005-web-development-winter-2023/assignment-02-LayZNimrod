@@ -33,7 +33,21 @@ img{
   border-radius: 50px;
 }
 
+.buttonbig{
+  font-size: 25px;
+  border: none;
+  padding: 30px;
+  background-color: #1d3557;
+  color: #f1faee;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
 .button:hover{
+  background-color: #3a4f6d;
+}
+
+.buttonbig:hover{
   background-color: #3a4f6d;
 }
 
@@ -56,28 +70,28 @@ label{
 */
 
 ul.header {
-  border:1px solid red;
+/*border:1px solid red;
   position:sticky;
   top: 20px;
   overflow-y:auto;
-  align-self: flex-start;
+  flex-wrap: wrap;
+  align-self: flex-start;*/
   font:bolder;
   font-size: 20px;
   margin-top: 40px;
   background-color: #0E2D40;
   color: #F2F2F2;
   list-style: none;
-  /*display: flex;*/
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction:row;
   justify-content: space-evenly;
+  display: flex;
 }
 
 ul.header a {
-  position:sticky;
+/*position:sticky;
   top: 0;
   overflow-y:auto;
-  align-self: flex-start;
+  align-self: flex-start;*/
   color: #F2F2F2;
   text-decoration-line: none;
 }
