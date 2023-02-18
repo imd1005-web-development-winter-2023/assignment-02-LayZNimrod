@@ -175,11 +175,11 @@ ul.flex2 h1 {
   font-size:50px;
   padding: 11px;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 ul.flex2 h2 {
-  margin-top: 60px;
+  margin-top: 150px;
   font-size:30px;
   padding: 11px;
   padding-bottom: 10px;
@@ -190,6 +190,7 @@ ul.flex2 img{
   max-width: 500px;
   min-width: 400px;
   height: auto;
+  padding-bottom: 100px;
 }
 ul.flex2 p {
   margin:0 auto;/* neccecery for some reason*/
@@ -233,6 +234,7 @@ ul.flex3 img{
   max-width: 500px;
   min-width: 400px;
   height: auto;
+  
 }
 ul.flex3 p {
   -webkit-text-stroke-width: 1px;
