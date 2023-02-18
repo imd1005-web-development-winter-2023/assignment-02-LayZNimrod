@@ -76,13 +76,13 @@ ul.header {
   overflow-y:auto;
   flex-wrap: wrap;
   align-self: flex-start;*/
-  font:bolder;
+  font: bolder;
   font-size: 20px;
   margin-top: 40px;
   background-color: #0E2D40;
   color: #F2F2F2;
   list-style: none;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: space-evenly;
   display: flex;
 }
@@ -158,7 +158,6 @@ ul.flex1 img{
 /* flex box 2 formatting */
 
 ul.flex2 {
-
   border-radius: 20px;
   padding-top: 30px;
   padding:20px;
@@ -174,7 +173,7 @@ ul.flex2 {
 ul.flex2 h1 {
   font-size:50px;
   padding: 11px;
-  padding-top: 100px;
+  padding-top: 130px;
   padding-bottom: 0px;
 }
 
@@ -242,6 +241,7 @@ ul.flex3 p {
   align-self: center;
   text-align: center;
   max-width: 600px;
+  padding-bottom: 80px;
 }
 
 /* a quick ul to make Flex box rows */
@@ -275,6 +275,7 @@ ul.flex3makeRow {
 
 ul.footer {
   margin: 0 20px;
+  padding: 36px;
   background-color: #1d3557;
   color: #f1faee;
   list-style: none;
@@ -285,8 +286,13 @@ ul.footer {
   align-items: flex-start;
 }
 
-ul.footer p{
-  margin-top: 36px;
+ul.footer a{
+  color: #f1faee;
+}
+
+ul.footer img{
+  margin-top: -36px;
+  margin-bottom: -36px;
   color: #f1faee;
 }
 
