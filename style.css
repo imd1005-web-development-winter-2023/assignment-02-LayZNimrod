@@ -14,8 +14,8 @@
   /* Flex directives */
   display: flex;
   flex-direction: column;
+  align-self: flex-start;
   justify-content: space-between;
-  align-items: stretch;
   background-color: #0E2D40;
 }
 
@@ -61,47 +61,31 @@ label{
   padding-bottom: 20px;
 }
 
-
-/*
-  To keep things simple we just target the
-  header directly. Here we are adding
-  padding to the top and bottom (nothing on the side)
-  and setting the background and text colours.
-*/
+/* editing the flex boxes */
 
 ul.header {
-/*border:1px solid red;
-  position:sticky;
-  top: 20px;
-  overflow-y:auto;
-  flex-wrap: wrap;
-  align-self: flex-start;*/
+  top: 0px;
+  height: 100px;
+  position: fixed;
   font: bolder;
   font-size: 20px;
-  margin-top: 40px;
   background-color: #0E2D40;
   color: #F2F2F2;
   list-style: none;
   flex-direction: row;
+  width: 100%;
   justify-content: space-evenly;
   display: flex;
 }
 
 ul.header a {
-/*position:sticky;
-  top: 0;
-  overflow-y:auto;
-  align-self: flex-start;*/
+  margin-top: 40;
   color: #F2F2F2;
   text-decoration-line: none;
 }
 
 ul.header img {
-  position:sticky;
   top: 0;
-  overflow-y:auto;
-  align-self: flex-start;
-  margin-top: -40px;
   padding: 0px;
   width: 110px;
   height: auto;
