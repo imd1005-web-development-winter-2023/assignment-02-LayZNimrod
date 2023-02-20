@@ -1,9 +1,6 @@
 /**** Add your styles here ****/
 
-/*
-  The page div is our flex box and is setup
-  to take the full width and height of the page
-*/
+/* General/Default Styles */
 
 /* colour scheme #68ABEA, #F2F2F2, #0E2D40*/
 
@@ -63,7 +60,7 @@ label{
   padding-bottom: 20px;
 }
 
-/* editing the flex boxes */
+/* Header uls */
 
 ul.header {
   top: 0px;
@@ -94,14 +91,7 @@ ul.header img {
 }
 
 /*
-  To keep things simple we just target the
-  main element directly.
-  We add the align-self: center directive to
-  center the flex item in the middle of the screen
-  We set the minimum and maximum width so
-  that we can keep our box to a certain size.
-  Lastly we add padding, colours, and a box shadow to
-  make it look a bit better
+  Main and flex boxes
 */
 
 main {
